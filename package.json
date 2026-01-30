@@ -1,0 +1,28 @@
+{
+  "name": "faclon-sensor-api",
+  "version": "1.0.0",
+  "description": "IoT sensor data ingestion service for Faclon Labs assessment",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": ["iot", "sensor", "mongodb", "express"],
+  "author": "vishalkruplani",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongoose": "^8.0.3",
+    "mqtt": "^5.3.3",
+    "pino": "^8.17.2",
+    "pino-pretty": "^10.3.1",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
